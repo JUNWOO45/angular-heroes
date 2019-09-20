@@ -9,6 +9,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component'; //NgModel을 사용하기위해서 로딩하였습니다.
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
